@@ -19,7 +19,7 @@ export class __Blank extends React.Component {
   static navigationOptions = ({ navigation }) => {
     return { headerLeft: <SlideMenuIcon navigationProps={navigation} /> }
   }
-  state = { Datepicker_2: new Date("09/14/2020") }
+  state = { Datepicker_2: new Date("09/16/2020") }
   render = () => (
     <View style={this.props.themedStyle.View_1}>
       <Datepicker
@@ -76,8 +76,8 @@ _Blank = withStyles(__Blank, theme => ({
     paddingBottom: 5,
     overflow: "visible",
     fontSize: 12,
-    color: "#2ba633",
-    backgroundColor: "#e7c61d",
+    color: "#f2f3f2",
+    backgroundColor: "#e7311d",
     fontStyle: "normal",
     fontWeight: "normal",
     borderColor: "#000000",
